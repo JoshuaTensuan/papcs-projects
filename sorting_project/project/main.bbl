@@ -1,0 +1,136 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{sat}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=49dacccff03c87507b02101750d0456f}{%
+           family={Board},
+           familyi={B\bibinitperiod},
+           given={College},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{49dacccff03c87507b02101750d0456f}
+      \strng{fullhash}{49dacccff03c87507b02101750d0456f}
+      \strng{bibnamehash}{49dacccff03c87507b02101750d0456f}
+      \strng{authorbibnamehash}{49dacccff03c87507b02101750d0456f}
+      \strng{authornamehash}{49dacccff03c87507b02101750d0456f}
+      \strng{authorfullhash}{49dacccff03c87507b02101750d0456f}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://reports.collegeboard.org/pdf/2019-total-group-sat-suite-assessments-annual-report.pdf}}
+      \field{title}{SAT Suite of Assessments Annual Report}
+      \field{year}{2019}
+    \endentry
+    \entry{baltimore}{article}{}
+      \name{author}{1}{}{%
+        {{hash=edeefe635f22eabf5d7f10e18b5db237}{%
+           family={Office},
+           familyi={O\bibinitperiod},
+           given={Mayor's},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{edeefe635f22eabf5d7f10e18b5db237}
+      \strng{fullhash}{edeefe635f22eabf5d7f10e18b5db237}
+      \strng{bibnamehash}{edeefe635f22eabf5d7f10e18b5db237}
+      \strng{authorbibnamehash}{edeefe635f22eabf5d7f10e18b5db237}
+      \strng{authornamehash}{edeefe635f22eabf5d7f10e18b5db237}
+      \strng{authorfullhash}{edeefe635f22eabf5d7f10e18b5db237}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Baltimore}
+      \field{title}{Baltimore City Employee Salaries FY2019}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://data.baltimorecity.gov/City-Government/Baltimore-City-Employee-Salaries-FY2019/6xv6-e66h
+      \endverb
+      \verb{url}
+      \verb https://data.baltimorecity.gov/City-Government/Baltimore-City-Employee-Salaries-FY2019/6xv6-e66h
+      \endverb
+    \endentry
+    \entry{riesekeller2018}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=c613e8a2fa4835d88b43621738016432}{%
+           family={Riese},
+           familyi={R\bibinitperiod},
+           given={Felix\bibnamedelima M.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0bbbbbe942476f1b7887370c19d6606a}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Sina},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{f470a6a2198b762c3f8f1a980827684c}
+      \strng{fullhash}{f470a6a2198b762c3f8f1a980827684c}
+      \strng{bibnamehash}{f470a6a2198b762c3f8f1a980827684c}
+      \strng{authorbibnamehash}{f470a6a2198b762c3f8f1a980827684c}
+      \strng{authornamehash}{f470a6a2198b762c3f8f1a980827684c}
+      \strng{authorfullhash}{f470a6a2198b762c3f8f1a980827684c}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://github.com/felixriese/hyperspectral-soilmoisture-dataset}}
+      \field{title}{Hyperspectral benchmark dataset on soil moisture}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.5281/zenodo.1227837
+      \endverb
+    \endentry
+    \entry{apphys}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ced63a84af6910c5949f5548b739fd8e}{%
+           family={Willoughby},
+           familyi={W\bibinitperiod},
+           given={Shannon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ced63a84af6910c5949f5548b739fd8e}
+      \strng{fullhash}{ced63a84af6910c5949f5548b739fd8e}
+      \strng{bibnamehash}{ced63a84af6910c5949f5548b739fd8e}
+      \strng{authorbibnamehash}{ced63a84af6910c5949f5548b739fd8e}
+      \strng{authornamehash}{ced63a84af6910c5949f5548b739fd8e}
+      \strng{authorfullhash}{ced63a84af6910c5949f5548b739fd8e}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{College Board}
+      \field{title}{Chief Reader Report on Student Responses: 2018 AP Physics C: Electricity and Magnetism Free-Response Questions}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap18-chief-reader-report-physics-c-em.pdf
+      \endverb
+      \verb{url}
+      \verb https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap18-chief-reader-report-physics-c-em.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
