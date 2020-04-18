@@ -1,0 +1,374 @@
+In file included from main.cpp:5:
+stack.h:28:2: error: 'uint' does not name a type; did you mean 'int'?
+  uint length;
+  ^~~~
+  int
+stack.h: In constructor 'stack<E>::stack()':
+stack.h:31:3: error: 'length' was not declared in this scope
+   length = 0;
+   ^~~~~~
+stack.h:31:3: note: suggested alternative: 'long'
+   length = 0;
+   ^~~~~~
+   long
+stack.h: In member function 'void stack<E>::push(E)':
+stack.h:46:5: error: 'length' was not declared in this scope
+   ++length;
+     ^~~~~~
+stack.h:46:5: note: suggested alternative: 'long'
+   ++length;
+     ^~~~~~
+     long
+stack.h: In member function 'E stack<E>::pop()':
+stack.h:49:5: error: 'length' was not declared in this scope
+   --length;
+     ^~~~~~
+stack.h:49:5: note: suggested alternative: 'long'
+   --length;
+     ^~~~~~
+     long
+In file included from calculator.h:6,
+                 from main.cpp:6:
+../operators/tnode.h: At global scope:
+../operators/tnode.h:12:17: error: 'uint' does not name a type; did you mean 'rint'?
+         virtual uint precedence() = 0;
+                 ^~~~
+                 rint
+In file included from ../operators/addnode.h:4,
+                 from calculator.h:7,
+                 from main.cpp:6:
+../operators/numbernode.h:29:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from calculator.h:7,
+                 from main.cpp:6:
+../operators/addnode.h:45:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from ../operators/dividenode.h:3,
+                 from ../operators/lnnode.h:3,
+                 from ../operators/powernode.h:3,
+                 from calculator.h:8,
+                 from main.cpp:6:
+../operators/multiplynode.h:70:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from ../operators/dividenode.h:3,
+                 from ../operators/lnnode.h:3,
+                 from ../operators/powernode.h:3,
+                 from calculator.h:8,
+                 from main.cpp:6:
+../operators/multiplynode.h: In member function 'virtual std::__cxx11::string multiplynode::tostring()':
+../operators/multiplynode.h:56:13: error: 'class tnode' has no member named 'precedence'
+   if (left->precedence() < 1) {
+             ^~~~~~~~~~
+../operators/multiplynode.h:62:14: error: 'class tnode' has no member named 'precedence'
+   if ((left->precedence() > 0 && left->precedence() < 3) || (right->precedence() > 0 && right->precedence() < 3) || (left->isnum() && left->precedence() > 0 && right->isnum() && right->precedence() > 0)) {
+              ^~~~~~~~~~
+../operators/multiplynode.h:62:40: error: 'class tnode' has no member named 'precedence'
+   if ((left->precedence() > 0 && left->precedence() < 3) || (right->precedence() > 0 && right->precedence() < 3) || (left->isnum() && left->precedence() > 0 && right->isnum() && right->precedence() > 0)) {
+                                        ^~~~~~~~~~
+../operators/multiplynode.h:62:69: error: 'class tnode' has no member named 'precedence'
+   if ((left->precedence() > 0 && left->precedence() < 3) || (right->precedence() > 0 && right->precedence() < 3) || (left->isnum() && left->precedence() > 0 && right->isnum() && right->precedence() > 0)) {
+                                                                     ^~~~~~~~~~
+../operators/multiplynode.h:62:96: error: 'class tnode' has no member named 'precedence'
+   if ((left->precedence() > 0 && left->precedence() < 3) || (right->precedence() > 0 && right->precedence() < 3) || (left->isnum() && left->precedence() > 0 && right->isnum() && right->precedence() > 0)) {
+                                                                                                ^~~~~~~~~~
+In file included from ../operators/dividenode.h:3,
+                 from ../operators/lnnode.h:3,
+                 from ../operators/powernode.h:3,
+                 from calculator.h:8,
+                 from main.cpp:6:
+../operators/multiplynode.h:62:141: error: 'class tnode' has no member named 'precedence'
+   if ((left->precedence() > 0 && left->precedence() < 3) || (right->precedence() > 0 && right->precedence() < 3) || (left->isnum() && left->precedence() > 0 && right->isnum() && right->precedence() > 0)) {
+
+       ^~~~~~~~~~
+../operators/multiplynode.h:62:186: error: 'class tnode' has no member named 'precedence'
+   if ((left->precedence() > 0 && left->precedence() < 3) || (right->precedence() > 0 && right->precedence() < 3) || (left->isnum() && left->precedence() > 0 && right->isnum() && right->precedence() > 0)) {
+
+                                                    ^~~~~~~~~~
+../operators/multiplynode.h:65:14: error: 'class tnode' has no member named 'precedence'
+   if (right->precedence() < 1) {
+              ^~~~~~~~~~
+In file included from ../operators/dividenode.h:4,
+                 from ../operators/lnnode.h:3,
+                 from ../operators/powernode.h:3,
+                 from calculator.h:8,
+                 from main.cpp:6:
+../operators/subtractnode.h: At global scope:
+../operators/subtractnode.h:49:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+../operators/subtractnode.h: In member function 'virtual std::__cxx11::string subtractnode::tostring()':
+../operators/subtractnode.h:44:14: error: 'class tnode' has no member named 'precedence'
+   if (right->precedence() == 0) {
+              ^~~~~~~~~~
+In file included from ../operators/dividenode.h:5,
+                 from ../operators/lnnode.h:3,
+                 from ../operators/powernode.h:3,
+                 from calculator.h:8,
+                 from main.cpp:6:
+../operators/numpowernode.h: At global scope:
+../operators/numpowernode.h:54:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+../operators/numpowernode.h: In member function 'virtual std::__cxx11::string numpowernode::tostring()':
+../operators/numpowernode.h:42:13: error: 'class tnode' has no member named 'precedence'
+   if (down->precedence() == 3) {
+             ^~~~~~~~~~
+In file included from ../operators/lnnode.h:3,
+                 from ../operators/powernode.h:3,
+                 from calculator.h:8,
+                 from main.cpp:6:
+../operators/dividenode.h: At global scope:
+../operators/dividenode.h:57:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+../operators/dividenode.h: In member function 'virtual std::__cxx11::string dividenode::tostring()':
+../operators/dividenode.h:45:13: error: 'class tnode' has no member named 'precedence'
+   if (left->precedence() < 1) {
+             ^~~~~~~~~~
+../operators/dividenode.h:52:14: error: 'class tnode' has no member named 'precedence'
+   if (right->precedence() < 2) {
+              ^~~~~~~~~~
+In file included from ../operators/powernode.h:3,
+                 from calculator.h:8,
+                 from main.cpp:6:
+../operators/lnnode.h: At global scope:
+../operators/lnnode.h:34:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from calculator.h:8,
+                 from main.cpp:6:
+../operators/powernode.h:67:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+../operators/powernode.h: In member function 'virtual std::__cxx11::string powernode::tostring()':
+../operators/powernode.h:55:13: error: 'class tnode' has no member named 'precedence'
+   if (left->precedence() == 3) {
+             ^~~~~~~~~~
+../operators/powernode.h:62:14: error: 'class tnode' has no member named 'precedence'
+   if (right->precedence() == 3) {
+              ^~~~~~~~~~
+In file included from calculator.h:10,
+                 from main.cpp:6:
+../operators/varnode.h: At global scope:
+../operators/varnode.h:15:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from ../operators/cosnode.h:5,
+                 from calculator.h:11,
+                 from main.cpp:6:
+../operators/sinnode.h:36:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from calculator.h:11,
+                 from main.cpp:6:
+../operators/cosnode.h:35:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from calculator.h:12,
+                 from main.cpp:6:
+../operators/arccosnode.h:34:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from calculator.h:13,
+                 from main.cpp:6:
+../operators/arcsinnode.h:34:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from calculator.h:14,
+                 from main.cpp:6:
+../operators/tannode.h:33:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from calculator.h:15,
+                 from main.cpp:6:
+../operators/arctannode.h:33:2: error: 'uint' does not name a type; did you mean 'rint'?
+  uint precedence() {
+  ^~~~
+  rint
+In file included from main.cpp:6:
+calculator.h: In static member function 'static std::__cxx11::string calculator::infix_to_postfix(std::__cxx11::string)':
+calculator.h:32:8: error: 'uint' was not declared in this scope
+   for (uint x = 0; x < in.length(); x++) {
+        ^~~~
+calculator.h:32:8: note: suggested alternative: 'rint'
+   for (uint x = 0; x < in.length(); x++) {
+        ^~~~
+        rint
+calculator.h:32:20: error: 'x' was not declared in this scope
+   for (uint x = 0; x < in.length(); x++) {
+                    ^
+calculator.h: In static member function 'static std::__cxx11::string calculator::recurse(std::__cxx11::string)':
+calculator.h:41:4: error: 'uint' was not declared in this scope
+    uint par = 1;
+    ^~~~
+calculator.h:41:4: note: suggested alternative: 'rint'
+    uint par = 1;
+    ^~~~
+    rint
+calculator.h:46:13: error: expected ';' before 'x'
+    for (uint x = 1; x < in.length() - 1; x++) {
+             ^~
+             ;
+calculator.h:46:21: error: 'x' was not declared in this scope
+    for (uint x = 1; x < in.length() - 1; x++) {
+                     ^
+calculator.h:48:6: error: 'par' was not declared in this scope
+      par++;
+      ^~~
+calculator.h:51:6: error: 'par' was not declared in this scope
+      par--;
+      ^~~
+calculator.h:53:9: error: 'par' was not declared in this scope
+     if (par == 0) {
+         ^~~
+calculator.h:69:3: error: 'uint' was not declared in this scope
+   uint par = 0;
+   ^~~~
+calculator.h:69:3: note: suggested alternative: 'rint'
+   uint par = 0;
+   ^~~~
+   rint
+calculator.h:71:4: error: 'par' was not declared in this scope
+    par++;
+    ^~~
+calculator.h:73:12: error: expected ';' before 'x'
+   for (uint x = in.length() - 2; x > 0; x--) {
+            ^~
+            ;
+calculator.h:73:34: error: 'x' was not declared in this scope
+   for (uint x = in.length() - 2; x > 0; x--) {
+                                  ^
+calculator.h:75:5: error: 'par' was not declared in this scope
+     par++;
+     ^~~
+calculator.h:79:5: error: 'par' was not declared in this scope
+     par--;
+     ^~~
+calculator.h:82:8: error: 'par' was not declared in this scope
+    if (par == 0) {
+        ^~~
+In file included from main.cpp:6:
+calculator.h:91:3: error: 'par' was not declared in this scope
+   par = 0;
+   ^~~
+In file included from main.cpp:6:
+calculator.h:118:12: error: expected ';' before 'x'
+   for (uint x = 1; x < in.length() - 1; x++) {
+            ^~
+            ;
+calculator.h:118:20: error: 'x' was not declared in this scope
+   for (uint x = 1; x < in.length() - 1; x++) {
+                    ^
+calculator.h: In static member function 'static tnode* calculator::postfix_to_tree(std::__cxx11::string)':
+calculator.h:165:3: error: 'uint' was not declared in this scope
+   uint x = 0;
+   ^~~~
+calculator.h:165:3: note: suggested alternative: 'rint'
+   uint x = 0;
+   ^~~~
+   rint
+calculator.h:166:9: error: 'x' was not declared in this scope
+   for (;x < post.length();) {
+         ^
+In file included from main.cpp:16:
+parser.h: In member function 'std::__cxx11::string parser::parse(std::__cxx11::string)':
+parser.h:21:3: error: 'uint' was not declared in this scope
+   uint e = in.find('=');
+   ^~~~
+parser.h:21:3: note: suggested alternative: 'rint'
+   uint e = in.find('=');
+   ^~~~
+   rint
+parser.h:24:4: error: 'e' was not declared in this scope
+    e -= 5;
+    ^
+parser.h:28:13: error: expected ';' before 'x'
+    for (uint x = 0; x < 32; x++) {
+             ^~
+             ;
+parser.h:28:21: error: 'x' was not declared in this scope
+    for (uint x = 0; x < 32; x++) {
+                     ^
+parser.h:33:7: error: 'e' was not declared in this scope
+   if (e == std::string::npos) {
+       ^
+parser.h:37:12: error: expected ';' before 'x'
+   for (uint x = 0; x < e; x++) {
+            ^~
+            ;
+parser.h:37:20: error: 'x' was not declared in this scope
+   for (uint x = 0; x < e; x++) {
+                    ^
+parser.h:37:24: error: 'e' was not declared in this scope
+   for (uint x = 0; x < e; x++) {
+                        ^
+parser.h:43:57: error: 'e' was not declared in this scope
+   functions[functions.size() - 1].tree = tree(in.substr(e + 1, in.length() - e - 1));
+                                                         ^
+parser.h: In member function 'tnode* parser::tree(std::__cxx11::string)':
+parser.h:48:9: error: 'uint' was not declared in this scope
+    for (uint y = 0; y < functions.size(); y++) {
+         ^~~~
+parser.h:48:9: note: suggested alternative: 'rint'
+    for (uint y = 0; y < functions.size(); y++) {
+         ^~~~
+         rint
+parser.h:48:21: error: 'y' was not declared in this scope
+    for (uint y = 0; y < functions.size(); y++) {
+                     ^
+parser.h:48:21: note: suggested alternative: 'yn'
+    for (uint y = 0; y < functions.size(); y++) {
+                     ^
+                     yn
+parser.h:51:10: error: expected ';' before 'z'
+      uint z = x + functions[y].name.length();
+          ^~
+          ;
+parser.h:52:16: error: 'z' was not declared in this scope
+      for (; in[z] == '\''; z++, f = f->derivative()->compress());
+                ^
+parser.h:53:13: error: 'z' was not declared in this scope
+      if (in[z] != '(') {
+             ^
+parser.h:56:10: error: expected ';' before 'm'
+      uint m = z;
+          ^~
+          ;
+parser.h:57:6: error: 'z' was not declared in this scope
+      z++;
+      ^
+parser.h:58:15: error: expected ';' before 'par'
+      for (uint par = 1; par!= 0; z++) {
+               ^~~~
+               ;
+parser.h:58:25: error: 'par' was not declared in this scope
+      for (uint par = 1; par!= 0; z++) {
+                         ^~~
+parser.h:58:25: note: suggested alternative: 'parse'
+      for (uint par = 1; par!= 0; z++) {
+                         ^~~
+                         parse
+parser.h:68:59: error: 'm' was not declared in this scope
+      in = in.substr(0, x) + "(" + f->chain(tree(in.substr(m, z - m)))->compress()->tostring() + ")" + in.substr(z, in.length() - z);
+                                                           ^
+parser.h:68:59: note: suggested alternative: 'tm'
+      in = in.substr(0, x) + "(" + f->chain(tree(in.substr(m, z - m)))->compress()->tostring() + ")" + in.substr(z, in.length() - z);
+                                                           ^
+                                                           tm

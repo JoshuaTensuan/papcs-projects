@@ -1,0 +1,10 @@
+PEMDAS
+Trig (done with Taylor series)
+derivatives
+definite integrals
+Newton's method
+Up to 4th degree taylor polynomial
+Complex numbers
+Equations solver (System maybe)
+Physics equations
+
