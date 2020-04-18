@@ -40,14 +40,15 @@ void dmatrix_test()
 void smatrix_test()
 {
     // smatrix *d = new smatrix(2,2);
-    smatrix d = smatrix(2, 2);
-    d.set(0, 0, 5);
-    d.set(0, 1, 3);
+    smatrix d = smatrix(2,2);
+    d.set(0, 1, 8);
+    d.set(0, 0, 4);
+    
     d.set(1, 1, 1);
     smatrix e = smatrix(2, 3);
-    e.set(0, 0, 2);
-    e.set(1, 1, 4);
-    e.set(1, 2, 11);
+    e.set(0, 0, -6);
+    e.set(1, 0, 3);
+    e.set(1, 1, 11);
     smatrix f = d.multiply(e);
     d.print();
     e.print();
@@ -93,6 +94,6 @@ void smatrix_convert()
 int main(int argc, char *argv[])
 {
     // smatrix_convert();
-//    smatrix_test();
-dmatrix_test();
+   smatrix_test();
+// dmatrix_test();
 }

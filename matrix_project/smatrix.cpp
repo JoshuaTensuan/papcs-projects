@@ -72,14 +72,29 @@ void smatrix::set(int r, int c, float value)
         }
         else
         {
-            node *temp_ptr = array_row[r];
-            while (!(temp_ptr->next == nullptr) && temp_ptr->next->col < c)
+            if (array_row[r]->next == nullptr)
             {
-                temp_ptr = temp_ptr->next;
+                if(array_row[r] -> col > c) {
+                    node *temp_ptr = array_row[r];
+                    n -> next = temp_ptr;
+                    array_row[r] = n;
+                } else {
+                    n -> next = nullptr;
+                    array_row[r] -> next = n;
+                }
             }
-            node *after_ptr = temp_ptr->next;
-            temp_ptr->next = n;
-            n->next = after_ptr;
+            else
+            {
+
+                node *temp_ptr = array_row[r];
+                while (!(temp_ptr->next == nullptr) && temp_ptr->next->col < c)
+                {
+                    temp_ptr = temp_ptr->next;
+                }
+                node *after_ptr = temp_ptr->next;
+                temp_ptr->next = n;
+                n->next = after_ptr;
+            }
         }
     }
     else

@@ -1,3 +1,3 @@
-Another testing of knowledge of linked lists.
-Implemented both dense and sparse matrices with linked lists.
-Implemented operators such as addition, subtraction, and multiplication.
+Again this project tested knowledge of linked lists.
+I implemented dense and sparse matrices using linked lists.
+Also implemented addition, subtraction, and multiplication operators for the matrices.
