@@ -28,7 +28,7 @@ Our code is made up of various hpp files:
   * Object that creates and prints a collection of the points in the graph interrelated by edges as well as retrieves its properties
   
 #### [analyser.hpp]
-  * Contains all but one of the analysis funtions that can be run on the graphs, which writes the results to text files 
+  * Contains all but one of the analysis functions that can be run on the graphs, which writes the results to text files 
   
 #### [mcl.hpp]
   * Contains our Markov Clustering Algorithm
